@@ -48,7 +48,7 @@ public abstract class AbstractSendCommandJob implements Runnable, GerritCmdRunne
     /**
      * An instance of a logger for sub-classes to use.
      */
-    protected static Logger logger = LoggerFactory.getLogger(AbstractSendCommandJob.class);
+    protected static final Logger logger = LoggerFactory.getLogger(AbstractSendCommandJob.class);
 
     private GerritConnectionConfig2 config;
 
